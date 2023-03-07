@@ -8,12 +8,14 @@ bool check(int *a , int s){
     if(s==0 || s==1) return true;
 
     if(a[0] > a[1]) return false;
+    
 
     // Recursive Call -->>> 
     else{
         bool remainingPart = check(a+1 , s-1);
         return remainingPart;
     }
+
 }
 
 int main(){

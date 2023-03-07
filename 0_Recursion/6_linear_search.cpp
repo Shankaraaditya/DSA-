@@ -7,13 +7,9 @@ bool LinearSearch (int a[] , int key, int size){
 
     else if(size==0) return false;
 
-    
-
-
     else{
         LinearSearch(a+1,key,size-1);
-        
-    }
+        }
 }
 int main(){
     int arr[10] = {1,2,3,4,5,6,7,8,9,12};

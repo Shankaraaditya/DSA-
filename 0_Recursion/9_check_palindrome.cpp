@@ -11,7 +11,11 @@ bool palindrome(int s , int e , string str){
     else{
         s++;
         e--;
-       return palindrome(s++,e--,str);
+        // palindrome(s++,e--,str);
+
+        return palindrome(s++,e--,str);  // return krana padega na ..
+
+        // ek case solve karo baakin recursion samhal lega.... ye chij ko serously lete hai abhi
     }
 }
 

@@ -13,9 +13,9 @@ int sum(int a[] , int size){
         return a[0];
     }
     else
-    {
+    {    // ek part solve karo baaki recursion se solve kra lo...
         int remainingPart = sum(a+1 , size-1);
-       int ans = a[0] + remainingPart;
+        int ans = a[0] + remainingPart;
         return ans;
     }
     
