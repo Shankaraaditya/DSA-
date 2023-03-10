@@ -17,7 +17,7 @@ int main(){
         s.pop();
     }
 
-    cout<<"reversed string is --> "<<ans<<endl;
+    cout<<"reversed string is --> "<<ans<<endl;  // aytida 
     
 
 

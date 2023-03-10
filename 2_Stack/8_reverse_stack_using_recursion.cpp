@@ -1,4 +1,6 @@
 void insertAtBottom(stack<int> &s , int element){
+
+
     //base case -->
     if(s.empty()){
         s.push(element);
@@ -15,8 +17,6 @@ void insertAtBottom(stack<int> &s , int element){
     }
 
 }
-
-
 
 void reverseStack(stack<int> &stack) {
     // Write your code here
@@ -36,6 +36,5 @@ void reverseStack(stack<int> &stack) {
     reverseStack(stack);
     insertAtBottom(stack,num);
     // stack.push(num);    
-
 
 }

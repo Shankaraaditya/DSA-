@@ -18,9 +18,11 @@ int main(){
 
     q.pop();
 
-    cout<<"empty or not "<<q.empty()<<endl;
+    cout<<"empty or not "<<q.empty()<<endl;   //wll print 0, as queue is not empty...
+
 
     cout<<q.front()<<endl;
 
     return 0;
+    
 }
